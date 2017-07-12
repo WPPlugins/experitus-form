@@ -1,0 +1,37 @@
+.experitus_request_field {
+	padding: 5px 0;
+}
+.experitus_request_field .ui-spinner {
+	display: block;
+	border-width: 0px;
+	width: 100%;
+}
+.experitus_request_field .ui-spinner input.ui-spinner-input {
+	margin: 0px;
+}
+.experitus_request_field select {
+	width: 100%;
+}
+.experitus-message-box {
+	background-color: #fff;
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	margin-left: 0;
+	padding: 12px;
+}
+.experitus-message-box.notice-success {
+	border-left: 4px solid #8dc63f;
+}
+.experitus-message-box.notice-error {
+	border-left: 4px solid #cc3f44;
+}
+.experitus_request_field.has-error input,
+.experitus_request_field.has-error textarea,
+.experitus_request_field.has-error span.ui-selectmenu-button {
+	border: 1px solid #cc3f44;
+}
+.experitus_request_field.has-error label  {
+	color: 1px solid #cc3f44;
+}
+#experitus_request_form .attributes_category {
+	margin: 12px 0;
+}
